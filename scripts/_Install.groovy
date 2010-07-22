@@ -8,9 +8,3 @@
 //
 //    ant.mkdir(dir:"${basedir}/grails-app/jobs")
 //
-ant.echo(message: """\
-Remember to put the following in grails-app/conf/resources.groovy:
-	groovyPageResourceLoader(com.cadrlife.jhaml.grailsplugin.HamlGroovyPageResourceLoader) {
-		baseResource = new org.springframework.core.io.FileSystemResource(".")
-	}
-""")
